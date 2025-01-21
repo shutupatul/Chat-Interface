@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.vh-95{
+  height: 95vh !important;
+}
+
+.chat-window{
+  z-index: 100;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-height{
+  height: calc(100% - 20vh)  !important;
+}
+
+.chat-message-left, .chat-message-right{
+  display: flex;
+  flex-shrink: 0;
+}
+
+.chat-message-left{
+  margin-right: auto;
+}
+
+.chat-message-right{
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.styles_scrollable-div__prSCv{
+  max-height: calc(100% - 2px) !important;
+  height: calc(100% - 2px) !important;
+  overflow-y: auto;
+}
+
+.chat-input{
+  position: sticky;
+  bottom: 0;
+}
